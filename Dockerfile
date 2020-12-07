@@ -1,4 +1,4 @@
-FROM centos:7
+FROM quay.io/containers/skopeo:latest
 
 ENV HOME=/home/skopeo
 WORKDIR ${HOME}
