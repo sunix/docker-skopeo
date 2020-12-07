@@ -3,7 +3,7 @@ FROM quay.io/containers/skopeo:latest
 ENV HOME=/home/skopeo
 WORKDIR ${HOME}
 
-ADD bashrc /home/git/.bashrc
+ADD bashrc /home/skopeo/.bashrc
 
 RUN mkdir /projects \
     # Store passwd/group as template files
